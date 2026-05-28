@@ -109,7 +109,7 @@ export default function PortfolioPage() {
 
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/portfolio-hero.png"
+          src="/images/visuals/portfolio-hero.jpg"
           alt=""
           fill
           priority

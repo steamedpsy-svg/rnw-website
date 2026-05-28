@@ -55,7 +55,7 @@ export default function PeoplePage() {
 
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/people-hero.png"
+          src="/images/visuals/people-hero.jpg"
           alt=""
           fill
           priority

@@ -199,7 +199,7 @@ export default function ServicePage() {
       {/* Header */}
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/service-hero.png"
+          src="/images/visuals/service-hero.jpg"
           alt=""
           fill
           priority

@@ -43,7 +43,7 @@ export default function AboutPage() {
 
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/about-hero.png"
+          src="/images/visuals/about-hero.jpg"
           alt=""
           fill
           priority

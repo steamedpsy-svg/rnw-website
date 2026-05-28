@@ -37,7 +37,7 @@ export default function ContactPage() {
 
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/contact-hero.png"
+          src="/images/visuals/contact-hero.jpg"
           alt=""
           fill
           priority

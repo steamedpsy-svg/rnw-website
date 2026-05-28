@@ -26,7 +26,7 @@ export default function InsightIndex() {
 
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <Image
-          src="/images/visuals/insight-hero.png"
+          src="/images/visuals/insight-hero.jpg"
           alt=""
           fill
           priority

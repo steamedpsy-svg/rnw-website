@@ -5,6 +5,7 @@ import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/JsonLd";
 import { SocialIcon, type SocialKind } from "@/components/SocialIcon";
 import { breadcrumbLd } from "@/lib/jsonld";
+import { HERO_BLUR } from "@/lib/hero-blur";
 import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -114,6 +115,8 @@ export default function PortfolioPage() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={HERO_BLUR.portfolio}
           className="object-cover object-center opacity-45"
         />
         <div

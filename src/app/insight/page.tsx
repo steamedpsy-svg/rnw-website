@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbLd } from "@/lib/jsonld";
+import { HERO_BLUR } from "@/lib/hero-blur";
 import { INSIGHT_POSTS } from "@/lib/insight-posts";
 import { SITE_URL } from "@/lib/seo";
 
@@ -31,6 +32,8 @@ export default function InsightIndex() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={HERO_BLUR.insight}
           className="object-cover object-center opacity-45"
         />
         <div

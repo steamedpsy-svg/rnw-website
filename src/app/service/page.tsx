@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbLd, faqLd, serviceLd } from "@/lib/jsonld";
+import { HERO_BLUR } from "@/lib/hero-blur";
 import { SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -204,6 +205,8 @@ export default function ServicePage() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={HERO_BLUR.service}
           className="object-cover object-center opacity-45"
         />
         <div

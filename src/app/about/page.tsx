@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbLd } from "@/lib/jsonld";
+import { HERO_BLUR } from "@/lib/hero-blur";
 import { SITE, SITE_URL } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -48,6 +49,8 @@ export default function AboutPage() {
           fill
           priority
           sizes="100vw"
+          placeholder="blur"
+          blurDataURL={HERO_BLUR.about}
           className="object-cover object-center opacity-45"
         />
         <div
